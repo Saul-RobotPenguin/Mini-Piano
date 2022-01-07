@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="typewriter">
+        <h1>Ready To Make Music?</h1>
+        <h1>For Mobile and Tablet</h1>
+        <h1>Please Make Sure to Tilt Your Device</h1>
+      </div>
+
+      <ul class="set">
+        <li class="white key" onclick="playSound('audio/C-Piano-Key.mp3')">
+          <p>1</p>
+        </li>
+        <audio id="audio" controls style="display: none">
+          <source src="audio/C-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black as"></li>
+        <li class="white key2" onclick="playSound('audio/D-Piano-Key.mp3')">
+          <p>2</p>
+        </li>
+        <audio id="audio2" controls style="display: none">
+          <source src="audio/D-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black gs"></li>
+        <li class="white key3" onclick="playSound('audio/E-Piano-Key.mp3')">
+          <p>3</p>
+        </li>
+        <audio id="audio3" controls style="display: none">
+          <source src="audio/E-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="white key4" onclick="playSound('audio/F-Piano-Key.mp3')">
+          <p>4</p>
+        </li>
+        <audio id="audio4" controls style="display: none">
+          <source src="audio/F-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black gs"></li>
+        <li class="white key5" onclick="playSound('audio/G-Piano-Key.mp3')">
+          <p>5</p>
+        </li>
+        <audio id="audio5" controls style="display: none">
+          <source src="audio/F-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black ds"></li>
+        <li class="white key6" onclick="playSound('audio/A-Piano-Key.mp3')">
+          <p>6</p>
+        </li>
+        <audio id="audio6" controls style="display: none">
+          <source src="audio/A-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black cs"></li>
+        <li class="white key7" onclick="playSound('audio/B-Piano-Key.mp3')">
+          <p>7</p>
+        </li>
+        <audio id="audio7" controls style="display: none">
+          <source src="audio/B-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="white key8" onclick="playSound('audio/C2-Piano-Key.mp3')">
+          <p>8</p>
+        </li>
+        <audio id="audio8" controls style="display: none">
+          <source src="audio/C2-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black cs"></li>
+        <li class="white key9" onclick="playSound('audio/D2-Piano-Key.mp3')">
+          <p>9</p>
+        </li>
+        <audio id="audio9" controls style="display: none">
+          <source src="audio/D2-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+        <li class="black cs"></li>
+        <li class="white key10" onclick="playSound('audio/E2-Piano-Key.mp3')">
+          <p>0</p>
+        </li>
+        <audio id="audio10" controls style="display: none">
+          <source src="audio/E2-Piano-Key.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+    <footer id="footer">
+      <p>Made By Saul.C</p>
+    </footer>
+  </body>
+</html>
