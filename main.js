@@ -1,3 +1,9 @@
+if (window.innerWidth < 800) {
+  alert(
+    "Please Tilt Your Device Horiziontally For The Best Playing Experience!"
+  );
+}
+
 document.onkeydown = keyDownEvent;
 document.onkeyup = keyUpEvent;
 

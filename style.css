@@ -6,8 +6,9 @@ body {
   margin: 0;
   background: #222;
   background-image: url("images/bg.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
+  margin-bottom: 50px;
 }
 /* KeyBoard Set and Keys */
 ul {
@@ -54,6 +55,7 @@ ul .white.active {
 }
 
 .container {
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,6 +120,20 @@ ul li:last-child {
   padding-top: 250%;
 }
 
+.logo {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.image-piano {
+  width: 5%;
+}
+
 /* typewriter effect */
 
 .typewriter h1 {
@@ -128,7 +144,7 @@ ul li:last-child {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  animation: typing 2.5s steps(30, end), blink-caret 0.5s step-end infinite;
   display: flex;
   justify-content: center;
 }
@@ -139,7 +155,7 @@ ul li:last-child {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 101%;
   }
 }
 
@@ -153,16 +169,47 @@ ul li:last-child {
     border-color: rgb(12, 12, 11);
   }
 }
+/* Section */
+
+.section p,
+h1,
+h2,
+h3 {
+  color: #fff;
+  font-family: monospace;
+  letter-spacing: 0.15em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.953rem;
+}
+
+.box {
+  background-color: grey;
+  width: 50%;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  margin-left: 25%;
+}
+
+.p-changefont {
+  font-size: 25px;
+}
 
 /* Footer */
 #footer {
-  position: absolute;
+  background-color: rgb(173, 173, 173);
+  padding-top: 10px;
+  padding-bottom: 0px;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Height of the footer */
 }
 
-#footer p {
-  justify-content: center;
+.footer-text {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 16px;
 }
